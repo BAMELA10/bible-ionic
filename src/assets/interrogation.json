@@ -1,0 +1,243 @@
+{
+    "question_response": [{
+            "question": "What is the first book of the Bible?",
+            "answer": "Genesis"
+        },
+        {
+            "question": "Who is considered the father of the Israelites?",
+            "answer": "Abraham"
+        },
+        {
+            "question": "Which prophet is known for building the ark?",
+            "answer": "Noah"
+        },
+        {
+            "question": "Who led the Israelites out of Egypt?",
+            "answer": "Moses"
+        },
+        {
+            "question": "What is the name of the holy book in Christianity?",
+            "answer": "The Bible"
+        },
+        {
+            "question": "Which Gospel begins with the words 'In the beginning was the Word'?",
+            "answer": "John"
+        },
+        {
+            "question": "Who betrayed Jesus according to the New Testament?",
+            "answer": "Judas Iscariot"
+        },
+        {
+            "question": "What is the fifth book of the New Testament?",
+            "answer": "Acts"
+        },
+        {
+            "question": "Which angel announced the birth of Jesus to Mary?",
+            "answer": "Gabriel"
+        },
+        {
+            "question": "What is the first commandment in the Ten Commandments?",
+            "answer": "You shall have no other gods before me."
+        },
+        {
+            "question": "Who was the first king of Israel?",
+            "answer": "Saul"
+        },
+        {
+            "question": "Which disciple of Jesus is known as 'the doubter'?",
+            "answer": "Thomas"
+        },
+        {
+            "question": "What is the shortest verse in the Bible?",
+            "answer": "Jesus wept."
+        },
+        {
+            "question": "In which book of the Bible do you find the story of David and Goliath?",
+            "answer": "1 Samuel"
+        },
+        {
+            "question": "Who wrote most of the Psalms in the Bible?",
+            "answer": "King David"
+        },
+        {
+            "question": "What is the last book of the New Testament?",
+            "answer": "Revelation"
+        },
+        {
+            "question": "Which prophet is known for being swallowed by a big fish?",
+            "answer": "Jonah"
+        },
+        {
+            "question": "What is the central theme of the Book of Job?",
+            "answer": "Suffering and God's sovereignty"
+        },
+        {
+            "question": "Who is the mother of Jesus?",
+            "answer": "Mary"
+        },
+        {
+            "question": "What is the first miracle performed by Jesus?",
+            "answer": "Turning water into wine"
+        },
+        {
+            "question": "Who wrote the majority of the Pauline epistles in the New Testament?",
+            "answer": "Apostle Paul"
+        },
+        {
+            "question": "What is the first plague in the story of Moses and Pharaoh?",
+            "answer": "Water turning into blood"
+        },
+        {
+            "question": "In which book of the Bible do you find the story of the Tower of Babel?",
+            "answer": "Genesis"
+        },
+        {
+            "question": "Who is known as the 'Prince of Peace'?",
+            "answer": "Jesus"
+        },
+        {
+            "question": "What is the name of the mountain where Moses received the Ten Commandments?",
+            "answer": "Mount Sinai"
+        },
+        {
+            "question": "Which apostle denied Jesus three times?",
+            "answer": "Peter"
+        },
+        {
+            "question": "What is the significance of the number 40 in the Bible?",
+            "answer": "It represents a period of testing or probation"
+        },
+        {
+            "question": "Who wrote the Book of Revelation?",
+            "answer": "John"
+        },
+        {
+            "question": "What is the first book of the New Testament?",
+            "answer": "Matthew"
+        },
+        {
+            "question": "What is the Golden Rule according to Jesus?",
+            "answer": "Do unto others as you would have them do unto you."
+        },
+        {
+            "question": "Who was the first man created according to the Bible?",
+            "answer": "Adam"
+        },
+        {
+            "question": "Which river is mentioned in the Garden of Eden story?",
+            "answer": "The Tigris and Euphrates"
+        },
+        {
+            "question": "Who was the mother of John the Baptist?",
+            "answer": "Elizabeth"
+        },
+        {
+            "question": "In the Old Testament, what was the forbidden fruit in the Garden of Eden?",
+            "answer": "The fruit of the tree of the knowledge of good and evil"
+        },
+        {
+            "question": "What is the first miracle performed by Elisha in the Old Testament?",
+            "answer": "Turning water into wine"
+        },
+        {
+            "question": "Who was the king that wrote many of the Proverbs in the Bible?",
+            "answer": "King Solomon"
+        },
+        {
+            "question": "Which two cities were destroyed by God in the story of Sodom and Gomorrah?",
+            "answer": "Sodom and Gomorrah"
+        },
+        {
+            "question": "Who was sold into slavery by his brothers in the Book of Genesis?",
+            "answer": "Joseph"
+        },
+        {
+            "question": "What is the name of the valley where David defeated Goliath?",
+            "answer": "Elah Valley"
+        },
+        {
+            "question": "Who wrote the Book of Isaiah?",
+            "answer": "Prophet Isaiah"
+        },
+        {
+            "question": "What is the primary message of the Book of Ecclesiastes?",
+            "answer": "The vanity of earthly pursuits"
+        },
+        {
+            "question": "Who were the parents of Samson?",
+            "answer": "Manoah and his wife"
+        },
+        {
+            "question": "What is the last of the Ten Commandments?",
+            "answer": "You shall not covet."
+        },
+        {
+            "question": "Who was the first king anointed by the prophet Samuel?",
+            "answer": "King Saul"
+        },
+        {
+            "question": "In the New Testament, who baptized Jesus in the Jordan River?",
+            "answer": "John the Baptist"
+        },
+        {
+            "question": "What is the central theme of the Book of Romans?",
+            "answer": "Justification by faith"
+        },
+        {
+            "question": "Who is known as the 'weeping prophet'?",
+            "answer": "Jeremiah"
+        },
+        {
+            "question": "What is the significance of the burning bush in the story of Moses?",
+            "answer": "A symbol of God's presence and calling"
+        },
+        {
+            "question": "Who wrote the Book of Daniel?",
+            "answer": "Prophet Daniel"
+        },
+        {
+            "question": "What is the name of the angel who announced the birth of John the Baptist?",
+            "answer": "Gabriel"
+        },
+        {
+            "question": "Who was the first martyr in the New Testament?",
+            "answer": "Stephen"
+        },
+        {
+            "question": "What is the parable of the Good Samaritan about?",
+            "answer": "Showing compassion to others, regardless of differences"
+        },
+        {
+            "question": "In the Book of Exodus, what is the main event at Mount Sinai?",
+            "answer": "The giving of the Ten Commandments"
+        },
+        {
+            "question": "Who wrote the Book of Leviticus?",
+            "answer": "Moses"
+        },
+        {
+            "question": "What is the shortest Psalm in the Book of Psalms?",
+            "answer": "Psalm 117"
+        },
+        {
+            "question": "Who was known for his wisdom and asked God for it in a dream?",
+            "answer": "King Solomon"
+        },
+        {
+            "question": "What is the name of the disciple who replaced Judas Iscariot?",
+            "answer": "Matthias"
+        },
+        {
+            "question": "In the Book of Esther, who was the Persian king?",
+            "answer": "King Xerxes"
+        },
+        {
+            "question": "What is the meaning of the name 'Bethlehem'?",
+            "answer": "House of Bread"
+        },
+        {
+            "question": "Who wrote the Book of James in the New Testament?",
+            "answer": "James, the brother of Jesus"
+        }
+    ]
+}

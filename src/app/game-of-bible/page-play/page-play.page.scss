@@ -1,0 +1,11 @@
+ion-button {
+    --border-radius: 0px;
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+ion-input {
+    --border-radius: 0px;
+    width: 100%;
+    border-radius: var(--border-radius);
+}

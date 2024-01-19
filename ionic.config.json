@@ -1,7 +1,11 @@
 {
-  "name": "bible-ionic",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
+    "name": "bible-ionic",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "angular",
+    "proxies": [{
+        "path": "/api",
+        "proxyUrl": "https://bible-api.com/"
+    }]
 }

@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Search Verse</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+        <ion-toolbar>
+            <ion-title size="large">search_verse_form</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <form class="ion-margin" #myForm="ngForm" (ngSubmit)="getValue()">
+        <ion-select label="Book" label-placement="floating" fill="solid" name="book" placeholder="Enter Book" [(ngModel)]="verse.book">
+            <ion-select-option *ngFor="let item of bibleBooks" value={{item}}>{{item}}</ion-select-option>
+        </ion-select>
+
+        <ion-input label="Chapter" label-placement="floating" type="number" fill="solid" name="chapter" placeholder="Enter Chapter" [clearInput]="true" [(ngModel)]="verse.chapter"></ion-input><br/>
+        <ion-input label="Verse" label-placement="floating" type="number" fill="solid" name="verse" placeholder="Enter Verse" [clearInput]="true" [(ngModel)]="verse.verse"></ion-input><br/>
+
+        <ion-button class="ion-padding" expand="full" type="submit">
+            <ion-icon slot="start" name="search-circle"></ion-icon>
+            GET IT
+        </ion-button>
+    </form>
+    <ng-container *ngIf="references !== undefined; else elseTemplate">
+        <ion-card>
+            <ion-card-header>
+                <ion-card-title>{{references}} : </ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                {{text}}
+            </ion-card-content>
+        </ion-card>
+    </ng-container>
+    <ng-template #elseTemplate>
+        <ion-card class="ion-margin">
+            <ion-card-header>
+                <ion-card-title class="ion-text-center"> Enter the references of the bible text</ion-card-title>
+            </ion-card-header>
+        </ion-card>
+    </ng-template>
+
+</ion-content>
+<ng-container *ngIf="error !== undefined && error !== ''">
+    <ion-footer>
+        <ion-toolbar>
+            <ion-title> {{error}} </ion-title>
+        </ion-toolbar>
+    </ion-footer>
+</ng-container>

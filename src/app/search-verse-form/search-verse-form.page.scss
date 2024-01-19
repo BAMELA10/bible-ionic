@@ -1,0 +1,15 @@
+    ion-content form ion-select {
+        --border-radius: 0px;
+        margin-bottom: 20px;
+        border-radius: var(--border-radius);
+    }
+    
+    ion-content form ion-input {
+        --border-radius: 0px;
+        border-radius: var(--border-radius);
+    }
+    
+    ion-card {
+        --border-radius: 0px;
+        border-radius: var(--border-radius);
+    }

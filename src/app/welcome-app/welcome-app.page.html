@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Home</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-toolbar>
+            <ion-title size="large">Home</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Hello!</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            Welcome to IO-BIBLE! <br>What do you want to do with us today?
+        </ion-card-content>
+
+    </ion-card>
+    <ion-button class=" ion-padding ion-justify-content-center " *ngFor="let item of appPages" [routerLink]="[item.url]">
+        <ion-icon slot="start" name={{item.icon}}></ion-icon>
+        {{item.title}}
+    </ion-button>
+    <ion-text class="ion-padding ion-text-center" color="white">
+        <h1 class="ion-margin">Choose and Let's go!</h1>
+    </ion-text>
+</ion-content>

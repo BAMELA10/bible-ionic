@@ -1,0 +1,10 @@
+ion-button {
+    --border-radius: 0px;
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+ion-card {
+    --border-radius: 0px;
+    border-radius: var(--border-radius);
+}
